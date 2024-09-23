@@ -44,7 +44,24 @@ button:hover {
     margin-left: 2px;
 }
 
+#repbox{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+}
+#dembox{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+
+}
+/* @media will adjust the display depending on the device screen size*/
 @media (max-width: 768px) {
+    #dem {
+        font-size: 16px;
+        padding: 15px;
+    }
     #rep {
         font-size: 16px;
         padding: 15px;
@@ -53,6 +70,10 @@ button:hover {
 
 @media (max-width: 480px) {
     #dem {
+        font-size: 14px;
+        padding: 10px;
+    }
+    #rep {
         font-size: 14px;
         padding: 10px;
     }
