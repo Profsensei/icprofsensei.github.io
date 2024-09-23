@@ -42,7 +42,7 @@ button:hover {
     flex: 1;
     padding: 20px;
     height: 50px;
-    width: 50px;
+    width: 70%;
     background-color: red;
 
 }
@@ -50,7 +50,7 @@ button:hover {
     flex: 1;
     padding: 20px;
     height: 50px;
-    width: 50px;
+    width: 30%;
     background-color: blue;
 
 }
