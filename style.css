@@ -44,7 +44,19 @@ button:hover {
     margin-left: 2px;
 }
 
+@media (max-width: 768px) {
+    #rep {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
 
+@media (max-width: 480px) {
+    #dem {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
 
 
 
