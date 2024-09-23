@@ -19,20 +19,14 @@ h1 {
     flex: 1;
     padding: 20px;
     font-size: 18px;
-    cursor: pointer;
-    border: none;
     color: white;
-    transition: background-color 0.3s;
     background-color: red;
 }
 #dem, button {
     flex: 1;
     padding: 20px;
     font-size: 18px;
-    cursor: pointer;
-    border: none;
     color: white;
-    transition: background-color 0.3s;
     background-color: blue;
 }
 button:hover {
@@ -45,17 +39,27 @@ button:hover {
 }
 
 #repbox{
+    flex: 1;
+    padding: 20px;
     height: 50px;
     width: 50px;
     background-color: red;
 
 }
 #dembox{
+    flex: 1;
+    padding: 20px;
     height: 50px;
     width: 50px;
     background-color: blue;
 
 }
+
+.ratiobox {
+    width: 100%;
+    display: flex;
+}
+
 /* @media will adjust the display depending on the device screen size*/
 @media (max-width: 768px) {
     #dem {
