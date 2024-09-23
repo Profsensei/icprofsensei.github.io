@@ -10,3 +10,13 @@ h1 {
     width : 100%;
     height: 90%;
 }
+#rep, button {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+#dem, button {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
