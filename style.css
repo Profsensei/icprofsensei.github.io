@@ -38,26 +38,21 @@ button:hover {
     margin-left: 2px;
 }
 
-#repbox{
-    flex: 1;
-    padding: 20px;
-    height: 50px;
-    width: 70%;
-    background-color: red;
-
-}
-#dembox{
-    flex: 1;
-    padding: 20px;
-    height: 50px;
-    width: 30%;
-    background-color: blue;
-
-}
-
 .ratiobox {
-    width: 100%;
     display: flex;
+    width: 100%;  /* Full width container */
+    height: 100px;  /* Adjust height as needed */
+    margin-top: 20px;
+}
+
+#repbox {
+    background-color: red;
+    height: 100%;  /* Full height of the container */
+}
+
+#dembox {
+    background-color: blue;
+    height: 100%;  /* Full height of the container */
 }
 
 /* @media will adjust the display depending on the device screen size*/

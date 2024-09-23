@@ -23,4 +23,6 @@ function calculateratio(){
     let repRatio = (reptally / total * 100).toFixed(2);
     let demRatio = (demtally / total * 100).toFixed(2);
     document.getElementById("ratios").innerHTML = `Republican: ${repRatio}% | Democrat: ${demRatio}%`
+    document.getElementById("repbox").style.width = `${repRatio}%`;
+    document.getElementById("dembox").style.width = `${demRatio}%`;
 }
